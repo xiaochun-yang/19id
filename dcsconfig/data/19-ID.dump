@@ -118,28 +118,28 @@ analogInStatus10
 galil10 analogInStatus10
 0 1 1 1 1
 0 1 1 1 1
-22.038799 21.437500 19.783800 24.504299 19.182501 20.445299 253.100601 253.130707
+21.467501 20.806101 19.633499 24.564400 18.250401 19.783800 253.100601 253.130707
 
 analogInStatus7
 13
 galil7 analogInStatus7
 0 1 1 1 1
 0 1 1 1 1
-4.948900 4.187100 0.005600 2.577700 3.434800 2.574500 2.573900 2.574700
+4.937300 4.191000 0.011100 2.574200 3.433600 2.575400 2.574600 2.574900
 
 analogInStatus2
 13
 galil2 analogInStatus2
 0 1 1 1 1
 0 1 1 1 1
--0.020300 2.575600 2.576100 2.575800 2.943600 2.574900 2.576800 2.576200
+-0.061900 2.574300 2.575800 2.575800 2.943900 2.575400 2.575800 2.577100
 
 analogInStatus3
 13
 galil3 analogInStatus3
 0 1 1 1 1
 0 1 1 1 1
--0.013500 2.578800 2.578700 2.578400 2.946000 2.578800 2.577500 2.579100
+-0.031200 2.578200 2.578300 2.578700 2.946100 2.577600 2.577000 2.578600
 
 get_robotstate
 11
@@ -417,7 +417,7 @@ self undulator_gap
 0 1 1 1 1
 0 0 0 0 0
 0
-20297.730000 20400.000000 5590.000000 1 1 0 0 mm
+0.000000 20400.000000 5590.000000 1 1 0 0 mm
 0
 
 gap
@@ -425,7 +425,7 @@ gap
 epics_gateway SR:C19-ID:G1A{NYX:1-Ax:Gap}-Mtr.RBV
 1 1 1 1 1
 0 0 0 0 0
-20297.73
+0
 
 gapRequest
 13
@@ -1345,7 +1345,7 @@ galil1 1 inline_light_out
 
 flu_det_ext
 6
-galil2 1 flu_det_ext
+galil2 0 flu_det_ext
 0 1 1 1 1
 0 1 1 1 1
 
@@ -1505,7 +1505,7 @@ galil3 beamstop_horz
 0 1 1 1 1
 0 0 0 0 0
 0
-358.997202 1000.000000 -1000.000000 1422.220000 10000 20 0 0 0 0 0 0 1 deg
+359.000014 1000.000000 -1000.000000 1422.220000 10000 20 0 0 0 0 0 0 1 deg
 
 beamstop_rota
 2
@@ -2731,7 +2731,7 @@ hutchDoorStatus
 simDhs standardString
 0 1 1 1 1
 0 1 1 1 1
-closed 1521470160
+closed 1521571128
 
 getEPICSPV
 11
@@ -2769,42 +2769,42 @@ cam1_stats1_max
 epics_gateway XF:19ID-BI{Cam:1}Stats1:MaxValue_RBV
 0 1 1 1 1
 0 1 1 1 1
-89
+82
 
 cam1_stats1_total
 13
 epics_gateway XF:19ID-BI{Cam:1}Stats1:Total_RBV
 0 1 1 1 1
 0 1 1 1 1
-937478
+931576
 
 cam2_stats1_max
 13
 epics_gateway XF:19ID-BI{Cam:2}Stats1:MaxValue_RBV
 0 1 1 1 1
 0 1 1 1 1
-964
+930
 
 cam2_stats1_total
 13
 epics_gateway XF:19ID-BI{Cam:2}Stats1:Total_RBV
 0 1 1 1 1
 0 1 1 1 1
-528135
+526075
 
 cam3_stats1_max
 13
 epics_gateway XF:19ID-BI{Cam:3}Stats1:MaxValue_RBV
 0 1 1 1 1
 0 1 1 1 1
-366
+300
 
 cam3_stats1_total
 13
 epics_gateway XF:19ID-BI{Cam:3}Stats1:Total_RBV
 0 1 1 1 1
 0 1 1 1 1
-72068
+71008
 
 keithley_reading
 13
