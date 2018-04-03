@@ -56,7 +56,7 @@ package require DCSMessageBoard
 package require BLUICECommandPrompt
 package require DCSLVDTForBL122
 #my own class
-package require DCSLiberaView
+#package require DCSLiberaView
 
 package require BLUICEDiffImageViewer
 
@@ -1810,6 +1810,7 @@ body SetupTab::launchWidget { name  } {
 			pack $itk_component($name) -expand 1 -fill both
         }
 
+<<<<<<< HEAD
 	#libera_control {
         #                if [checkAndActivateExistingDocument $name] return
         #                set path [$itk_component(Mdi) addDocument $name \
@@ -1821,6 +1822,19 @@ body SetupTab::launchWidget { name  } {
         #                }
         #                pack $itk_component($name) -expand 1 -fill both
        #}
+=======
+#	libera_control {
+#                        if [checkAndActivateExistingDocument $name] return
+#                        set path [$itk_component(Mdi) addDocument $name \
+#                            -title "Libera Control"  -resizable 1  -width 750 -height 600]
+#
+#                        itk_component add $name {
+#                                DCS::LiberaDetailView $path.$name
+#                        } {
+#                        }
+#                        pack $itk_component($name) -expand 1 -fill both
+#       }
+>>>>>>> 33371cfdd8a2c16a8dac92a4037b2d8f14e487b4
 
         PlotWin1 {
                         if [checkAndActivateExistingDocument $name] return

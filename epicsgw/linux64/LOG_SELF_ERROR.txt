@@ -3660,6 +3660,7 @@
 [0]03/19/18 07:22:33 4157855520: level NULL in log_details_va
 [0]03/19/18 07:28:29 654497568: localIP address: 2130706433
 [0]03/19/18 07:28:29 654497568: level NULL in log_details_va
+<<<<<<< HEAD
 [0]03/22/18 18:06:32 243103520: localIP address: 2130706433
 [0]03/22/18 18:06:32 243103520: level NULL in log_details_va
 [0]03/22/18 18:12:44 3700545312: localIP address: 2130706433
@@ -3694,3 +3695,15 @@
 [0]04/03/18 10:31:26 1404442400: level NULL in log_details_va
 [0]04/03/18 11:26:03 1559541536: localIP address: 2130706433
 [0]04/03/18 11:26:03 1559541536: level NULL in log_details_va
+=======
+[0]03/20/18 10:12:47 3336898336: localIP address: 2130706433
+[0]03/20/18 10:12:47 3336898336: level NULL in log_details_va
+[0]03/20/18 11:03:23 3449394976: localIP address: 2130706433
+[0]03/20/18 11:03:23 3449394976: level NULL in log_details_va
+[0]03/20/18 11:04:19 166139680: localIP address: 2130706433
+[0]03/20/18 11:04:19 166139680: level NULL in log_details_va
+[0]03/20/18 11:04:53 1374639904: localIP address: 2130706433
+[0]03/20/18 11:04:53 1374639904: level NULL in log_details_va
+[0]03/20/18 11:06:56 91047712: localIP address: 2130706433
+[0]03/20/18 11:06:56 91047712: level NULL in log_details_va
+>>>>>>> 33371cfdd8a2c16a8dac92a4037b2d8f14e487b4
